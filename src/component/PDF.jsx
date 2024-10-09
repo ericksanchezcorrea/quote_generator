@@ -15,8 +15,8 @@ import ServiciosGenerales from "../images/servicios_generales.png";
 Font.register({
   family: "Roboto",
   fonts: [
-    { src: "src/assets/fonts/Roboto-Regular.ttf"}, // regular
-    { src: "src/assets/fonts/Roboto-Bold.ttf", fontWeight: "bold" }, // bold
+    { src: "/fonts/Roboto-Regular.ttf" }, // Ruta desde el directorio `public`
+    { src: "/fonts/Roboto-Bold.ttf", fontWeight: "bold" },
   ],
 });
 
